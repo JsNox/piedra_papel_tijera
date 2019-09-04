@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+body{
+	background: #02010D;
+}
+header{
+	background: #CDF7DA;
+	padding: 20px;
+	color:#1A0F04;
+	font-family: 'Indie Flower', cursive;
+}
+header>h1{
+	font-size: 50px;
+}
+.marcador{
+	border: 3px solid #fff;
+	margin: 20px auto;
+	width: 300px;
+	color:#fff;
+	font-size: 40px;
+	font-weight: 700;
+	border-radius: 5px;
+	text-align: center;
+	padding: 15px 20px;
+	position: relative;
+}
+.badge{
+	background: #150877;
+	font-size: 25px;
+	border: 2px solid #fff;
+	border-radius: 10px;
+	padding: 3px 2px;
+}
+.jugador_label{
+	position: absolute;
+	top: auto;
+	left: -50px;
+	height: 50%;
+	width: 40%;
+}
+.pc_label{
+	position: absolute;
+	top: auto;
+	right: -80px;
+	height: 50%;
+	width: 55%;
+}
+#jugador_score, #pc_score{
+	padding: 5px;
+	font-size: 30px;
+}
+.result{
+	font-size: 40px;
+	color: #fff;
+}
+.result>p{
+	text-align: center;
+	font-family: 'Indie Flower', cursive;
+}
+.opciones{
+	text-align: center;
+	margin: 50px 0;
+}
+.choice{
+	display: inline-block;
+	border:4px solid #fff;
+	border-radius: 20%;
+	background: #150877;
+	padding: 15px;
+	margin: 20px;
+	transition: all 0.3s ease;
+}
+.choice:hover{
+	transform: scale(1.5);
+}
+#accion{
+	text-align: center;
+	font-family: 'Indie Flower', cursive;
+	font-size: 35px;
+	color: #fff;
+
+}
+.verde{
+	border: 5px solid #09EC0F;
+	box-shadow: 0 0 10px #06FC0D;
+}
+.rojo{
+	border: 5px solid #E71515;
+	box-shadow: 0 0 10px #FF0000;
+}
+.gris{
+	border: 5px solid #ABABAB;
+	box-shadow: 0 0 10px #949494;
+}
